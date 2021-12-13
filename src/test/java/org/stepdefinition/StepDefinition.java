@@ -33,7 +33,7 @@ public class StepDefinition extends BaseClass {
 	@When("User have to enter email or phoneno")
 	public void user_have_to_enter_email_or_phoneno() {
 		WebElement mobileno = fo.getMobileno();
-		fillTextBox(mobileno, "1234567");
+		fillTextBox(mobileno, "123456789");
 	    
 	}
 

@@ -1,0 +1,362 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-13T05:12:57.262Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6280817947,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Before()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "",
+        "description": "To validate forgotten password",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 3210355134,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.After(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5050168571,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User have to enter facebook login through chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_facebook_login_through_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3468495946,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User have to click forgotten password button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_forgotten_password_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263371233,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User have to enter email or phoneno",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_email_or_phoneno()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 219847986,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User have to click search button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@forgot"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "To validate forgotten password functionality of facebook app",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles2/ForgotPassword2.feature",
+    "tags": [
+      {
+        "name": "@forgot",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-13T05:13:15.852Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2424306066,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Before()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To Validate login by using valid email and invalid password",
+        "description": "",
+        "id": "to-validate-login-functionality-of-facebook-application;to-validate-login-by-using-valid-email-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 2808970649,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.After(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4680002407,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User have to enter facebook login through chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_facebook_login_through_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 544122003,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User have to enter valid Email and invalid password",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_valid_Email_and_invalid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "karthi"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "1234567"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "karthieie27@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3184589756,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User have to click login button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1095865718,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User have to reach invaild credentials page",
+            "match": {
+              "location": "StepDefinition.user_have_to_reach_invaild_credentials_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-13T05:13:30.636Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2422207740,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "To Validate login by using invalid email and invalid password",
+        "description": "",
+        "id": "to-validate-login-functionality-of-facebook-application;to-validate-login-by-using-invalid-email-and-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 2976022258,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.After(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5043107128,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User have to enter facebook login through chrome browser",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_facebook_login_through_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 770511282,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User have to enter invalid emailadd and invalid password",
+            "match": {
+              "location": "StepDefinition.user_have_to_enter_invalid_emailadd_and_invalid_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password",
+                  "username1",
+                  "password1"
+                ]
+              },
+              {
+                "cells": [
+                  "karthieie27912@gmail.com",
+                  "12345678",
+                  "selenium",
+                  "12345678"
+                ]
+              },
+              {
+                "cells": [
+                  "python",
+                  "1234567",
+                  "selenium",
+                  "12345678"
+                ]
+              },
+              {
+                "cells": [
+                  "java",
+                  "1234567",
+                  "seleniuma",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "Augular",
+                  "1234567",
+                  "selenium",
+                  "12345678"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3249231554,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User have to click login button",
+            "match": {
+              "location": "StepDefinition.user_have_to_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25678609,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User have to reach invaild credentials page",
+            "match": {
+              "location": "StepDefinition.user_have_to_reach_invaild_credentials_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate Login Functionality of Facebook Application",
+    "description": "",
+    "id": "to-validate-login-functionality-of-facebook-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles2/Login2.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

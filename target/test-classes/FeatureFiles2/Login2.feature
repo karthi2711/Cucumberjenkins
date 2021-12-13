@@ -14,7 +14,7 @@ Feature: To Validate Login Functionality of Facebook Application
     Given User have to enter facebook login through chrome browser
     When User have to enter invalid emailadd and invalid password
       | username             | password | username1 | password1 |
-      | karthieie2791@gmail.com | 12345678 | selenium  |  12345678 |
+      | karthieie27912@gmail.com | 12345678 | selenium  |  12345678 |
       | python               |  1234567 | selenium  |  12345678 |
       | java                 |  1234567 | seleniuma | 123456789 |
       | Augular              |  1234567 | selenium  |  12345678 |
