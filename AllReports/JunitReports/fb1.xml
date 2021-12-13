@@ -1,20 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="47.854633">
-<testcase classname="" name="_2" time="18.576821">
-<system-out><![CDATA[Given User have to enter facebook login through chrome browser..............passed
-And User have to click forgotten password button............................passed
-When User have to enter email or phoneno....................................passed
-Then User have to click search button.......................................passed
-]]></system-out>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="50.406231">
+<testcase classname="" name="_2" time="23.817887">
+<failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[text()='Forgotten password']&quot;}&#10;  (Session info: chrome=96.0.4664.93)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'KARTHIKEYAN-PC', ip: '192.168.202.186', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_291'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\KARTHI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9036f8419d65e0526545f8fa2d18233b&#10;*** Element info: {Using=xpath, value=//a[text()='Forgotten password']}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy17.click(Unknown Source)&#13;&#10;&#9;at org.helper.BaseClass.btnclick(BaseClass.java:73)&#13;&#10;&#9;at org.stepdefinition.StepDefinition.user_have_to_click_forgotten_password_button(StepDefinition.java:30)&#13;&#10;&#9;at ✽.User have to click forgotten password button(file:src/test/resources/FeatureFiles2/ForgotPassword2.feature:9)&#13;&#10;"><![CDATA[Given User have to enter facebook login through chrome browser..............passed
+And User have to click forgotten password button............................failed
+When User have to enter email or phoneno....................................skipped
+Then User have to click search button.......................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Forgotten password']"}
+  (Session info: chrome=96.0.4664.93)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KARTHIKEYAN-PC', ip: '192.168.202.186', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\KARTHI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9036f8419d65e0526545f8fa2d18233b
+*** Element info: {Using=xpath, value=//a[text()='Forgotten password']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.click(Unknown Source)
+	at org.helper.BaseClass.btnclick(BaseClass.java:73)
+	at org.stepdefinition.StepDefinition.user_have_to_click_forgotten_password_button(StepDefinition.java:30)
+	at ✽.User have to click forgotten password button(file:src/test/resources/FeatureFiles2/ForgotPassword2.feature:9)
+]]></failure>
 </testcase>
-<testcase classname="To Validate Login Functionality of Facebook Application" name="To Validate login by using valid email and invalid password" time="14.780286">
+<testcase classname="To Validate Login Functionality of Facebook Application" name="To Validate login by using valid email and invalid password" time="14.490456">
 <system-out><![CDATA[Given User have to enter facebook login through chrome browser..............passed
 When User have to enter valid Email and invalid password....................passed
 And User have to click login button.........................................passed
 Then User have to reach invaild credentials page............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="To Validate Login Functionality of Facebook Application" name="To Validate login by using invalid email and invalid password" time="14.497526">
+<testcase classname="To Validate Login Functionality of Facebook Application" name="To Validate login by using invalid email and invalid password" time="12.097888">
 <system-out><![CDATA[Given User have to enter facebook login through chrome browser..............passed
 When User have to enter invalid emailadd and invalid password...............passed
 And User have to click login button.........................................passed

@@ -12,7 +12,7 @@ public class Forgotloginpojo extends BaseClass{
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath="//a[text()='Forgotten password?']")
+	@FindBy(xpath="//a[text()='Forgotten password']")
     private WebElement frgbtn;
 
 	@FindBy(xpath="//input[@placeholder='Email address or mobile number']")
